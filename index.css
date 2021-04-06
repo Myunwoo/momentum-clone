@@ -1,0 +1,67 @@
+body{
+  background-color:#95afc0;
+}
+
+input{
+  all:unset;
+}
+
+input::placeholder {
+  color: #dff9fb;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+h1{
+  font-size: 80px;
+}
+
+li{
+  all:unset;
+}
+
+.btn{
+  cursor: pointer;
+}
+
+.clicked{
+  color:#74f88d;
+}
+
+.form,
+.greeting{
+  display: none;
+}
+
+.showing{
+  display: block;
+}
+
+.bgImage{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+.text{
+  color:#dff9fb;
+}
+
+.centerBox{text-align:center; padding:30px;}
+.centerBox .inlineBox{display:table; margin:0 auto; display:inline-block;}
+.centerBox .inlineBox .item{display:block;}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  ro {
+    opacity: 1;
+  }
+}
