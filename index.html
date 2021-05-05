@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html>
   <header>
-    <title>Something</title>
+    <title>Myunwoo Momentum Clone</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="index.css">
   </header>
   <body>
-    <span class="js-weather text rightBox"></span>
-    <div class="js-clock">
-      <h1 class="js-title text centerBox inlineBox item"></h1>
+    <div class="screen-header">
+      <span class="js-weather"></span>
     </div>
-    <form class="js-form form">
-      <input type="text" placeholder="what is your name?"/>
-    </form>
-    <h4 class="js-greetings greeting text centerBox inlineBox item"></h4>
-    <form class="js-toDoForm">
-      <input type="text" placeholder="Write to do"/>
-    </form>
-    <ul class="js-toDoList">
-    </ul>
+    
+    <div class="js-clock">
+      <h1 class="js-title"></h1>
+      <form class="js-form form greeting-text">
+        <input type="text" placeholder="what is your name?"/>
+      </form>
+      <h4 class="js-greetings greeting greeting-text"></h4>
+    </div>
+    
+    <div class="toDoRow">
+      <form class="js-toDoForm">
+        <input type="text" placeholder="Write to do"/>
+      </form>
+      <ul class="js-toDoList"></ul>
+    </div>
+    
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
     <script src="todo.js"></script>

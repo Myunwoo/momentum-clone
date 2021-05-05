@@ -14,12 +14,60 @@ input:focus::placeholder {
   color: transparent;
 }
 
-h1{
-  font-size: 80px;
-}
-
 li{
   all:unset;
+}
+
+.screen-header{
+  width:100vw;
+  height:10vh;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+}
+
+.screen-header span{
+  margin-right:25px;
+  font-size:20px;
+  color:white;
+}
+
+.js-clock{
+  width:100vw;
+  height:70vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.js-title{
+  color:white;
+  font-size: 140px;
+  margin: 0px;
+}
+
+.js-form{
+  padding:0px;
+  margin-left:70px;
+}
+
+.greeting-text{
+  color: white;
+  font-size: 50px;
+}
+
+.toDoRow{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+
+.js-toDoForm{
+  margin-left:170px;
+  font-size:30px;
+  color:white;
 }
 
 .btn{
@@ -52,10 +100,6 @@ li{
 .text{
   color:#dff9fb;
 }
-
-.centerBox{text-align:center; padding:30px;}
-.centerBox .inlineBox{display:table; margin:0 auto; display:inline-block;}
-.centerBox .inlineBox .item{display:block;}
 
 @keyframes fadeIn{
   from{
