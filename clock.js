@@ -15,3 +15,15 @@ function init(){
 }
 
 init();
+
+getTime(){
+    const date = new Date();
+    const hours = date.getHours();
+    const minutes = date.getMinutes();
+    const seconds = date.getSeconds();
+    console.log("hour:"+hours+" minutes:"+minutes+" seconds:"+seconds);
+  }
+
+  init(){
+    setInterval(this.getTime,1000);
+  }
